@@ -1,0 +1,38 @@
+// {R}←{X}tradfn(Y Z);local
+"{": curly-brace
+"R": name
+"}": curly-brace
+"←": assignment
+"{": curly brace
+"X": name
+"}": curly-brace
+"tradfn": 
+"(": parenthesis
+"Y": name
+" ": normal
+"Z": name
+")": parenthesis
+";": semicolon
+"local": name
+
+
+// dfn: 
+// ←: assignment
+// {: curly brace
+//  : normal
+// ⍝ comment: comment
+// \t: normal
+// 0: number
+// ¯1.2e¯3j¯.45: number
+// 'string': string
+// ⍬: zilde
+//   +/-⍣(×A):⍺∇⍵[i;j]
+//   {{{{nested ⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}
+// }
+// label:       
+// :For i :In ⍳X ⋄ :EndFor
+// :If condition
+//   {⍵[⍋⍵]} ⋄ global←local←0
+//   ⎕error ) ] } :error 'unclosed
+// :EndIf
+// search match      

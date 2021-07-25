@@ -1,0 +1,9 @@
+background: '#FFFFFF'
+
+name: '#888888'
+curly-braces: '#000000'               
+parenthesis: '#1C00FF'
+assignment: '#1C00FF' 
+semicolon: '#1C00FF'  
+
+comment: '#008888' 

@@ -4,26 +4,14 @@
     <script src="interp.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="default-theme.css">
     <!-- <link rel="preload" href="fonts/APL386.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="fonts/APL386.ttf" as="font" type="font/ttf" crossorigin> -->
 </head>
 <body onload="init();">
     <!-- <textarea id="input" rows=15 cols=50></textarea> -->
     <!-- <button type="button" onclick="run();">Run</button> -->
-    <pre id="output">
-        {R}←{X}tradfn(Y Z);local
-dfn←{ ⍝ comment                 
-  0 ¯1.2e¯3j¯.45 'string' ⍬
-  +/-⍣(×A):⍺∇⍵[i;j]          
-  {{{{nested ⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}     
-}
-label:       
-:For i :In ⍳X ⋄ :EndFor
-:If condition
-  {⍵[⍋⍵]} ⋄ global←local←0
-  ⎕error ) ] } :error 'unclosed
-:EndIf
-search match      
+<pre id="output"><span class="curly-braces">{</span><span class="name">R</span><span class="curly-braces">}</span><span class="assignment">←</span><span class="curly-braces">{</span><span class="name">X</span><span class="curly-braces">}</span><span class="global-name">tradfn</span><span class="parenthesis">(</span><span class="name">Y</span><span class="normal"> </span><span class="name">Z</span><span class="parenthesis">)</span><span class="semicolon">;</span><span class="name">local</span></pre>
 
 
     <!-- <span class="curly-braces">{</span>>
