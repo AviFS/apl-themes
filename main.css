@@ -7,9 +7,18 @@
     font-display: fallback;
 }
 
+#output {
+    font-size: 40px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 25px 20px 25px;
+    border: 4px solid #555555;
+
+}
+
 * {
     font-family: 'APL386';
-}
+} 
 
 body {
     padding-top: 30px;
@@ -38,9 +47,6 @@ textarea {
     margin-bottom: 30px;
 }
 
-#output {
-    border: 0px;
-}
 
 .ptr {
     color: #f0f0f0;
