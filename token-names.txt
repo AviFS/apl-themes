@@ -1,0 +1,51 @@
+assignment
+autocomplete sel
+bracket
+comment
+cursor
+curly braces
+dfn level 1
+dfn level 2
+dfn level 3
+dfn level 4
+dfn level 5
+dfn
+diamond
+dyadic operator
+error
+function
+global name
+idiom
+keyword
+label
+line number
+matching bracket
+modified line
+monadic operator
+namespace
+name
+normal
+number
+parenthesis
+quad name
+quad name local
+search match
+selection
+semicolon
+string
+system command
+tracer
+pendent
+tradfn
+user command
+value tip target
+value tip
+zilde
+chararr
+charmat
+charvec
+charvecvec
+mixarr
+numarr
+quador
+disconnected

@@ -1,8 +1,22 @@
+@font-face {
+    font-family: 'APL386';
+    src: url('fonts/APL386.woff') format('woff'),
+        url('fonts/APL386.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+* {
+    font-family: 'APL386';
+}
+
 body {
     padding-top: 30px;
     max-width: max-content;
     margin: auto; 
 }
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
