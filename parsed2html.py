@@ -9,5 +9,6 @@ while line:=f.readline():
         kind = kind.strip(' ')
         kind = kind.strip('\n')
         print(f'<span class="{kind}">{token}</span>')
+print()
 
 f.close() 

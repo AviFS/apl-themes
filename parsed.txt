@@ -1,11 +1,11 @@
 // {R}←{X}tradfn(Y Z);local
-"{": curly-brace
+"{": curly-braces
 "R": name
-"}": curly-brace
+"}": curly-braces
 "←": assignment
-"{": curly brace
+"{": curly-braces
 "X": name
-"}": curly-brace
+"}": curly-braces
 "tradfn": 
 "(": parenthesis
 "Y": name
@@ -14,18 +14,26 @@
 ")": parenthesis
 ";": semicolon
 "local": name
+"<br>": normal
 
-
-// dfn: 
-// ←: assignment
-// {: curly brace
-//  : normal
-// ⍝ comment: comment
-// \t: normal
-// 0: number
-// ¯1.2e¯3j¯.45: number
-// 'string': string
-// ⍬: zilde
+// dfn←{ ⍝ comment
+"dfn": global-name 
+"←": assignment
+"{": curly-braces
+ " ": normal
+ "<br>": normal
+ 
+ 
+ // 0 ¯1.2e¯3j¯.45 'string' ⍬
+ "⍝ comment": comment
+ "\t": normal
+ "0": number
+ " ": normal
+"¯1.2e¯3j¯.45": number
+" ": normal
+"'string'": string
+" ": normal
+"⍬": zilde
 //   +/-⍣(×A):⍺∇⍵[i;j]
 //   {{{{nested ⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}
 // }

@@ -32,3 +32,15 @@ name
 .semicolon { color: #1C00FF; } 
 
 .comment { color: #008888; } 
+.string { color: #008888; }
+.number { color: #888888; }
+.zilde { color: #0A0088; }
+
+/*
+
+comment: '#008888'     
+string: '#008888'  
+number: '#888888'
+zilde: '#0A0088' 
+
+*/
