@@ -1,0 +1,42 @@
+.new-moon#output{ color: rgba(179,185,197,1); background-color: rgba(45,45,45,1); }
+
+.new-moon .assignment { color: rgba(106,176,243,1); }
+.new-moon .autocomplete-sel { background-color: rgba(225,166,242,0.25); }
+.new-moon .bracket { color: rgba(106,176,243,1); }
+.new-moon .comment { color: rgba(119,124,133,1); }
+.new-moon .cursor { color: rgba(255,255,255,1); }
+.new-moon .dfn { color: rgba(255,255,255,1); }
+.new-moon .diamond { color: rgba(255,238,166,1); }
+.new-moon .dyadic-operator { color: rgba(118,212,214,1); }
+.new-moon .error { color: rgba(242,119,122,1); text-decoration: underline; }
+.new-moon .function { color: rgba(172,141,88,1); }
+.new-moon .global-name { color: rgba(242,119,122,1); }
+.new-moon .idiom { text-decoration: underline; }
+.new-moon .keyword { color: rgba(255,238,166,1); }
+.new-moon .label { color: rgba(255,212,121,1); }
+.new-moon .line-number { color: rgba(119,124,133,1); }
+.new-moon .matching-bracket { background-color: rgba(119,124,133,0.5); }
+.new-moon .modified-line { background-color: rgba(119,124,133,0.25); }
+.new-moon .monadic-operator { color: rgba(106,176,243,1); }
+.new-moon .normal { color: rgba(179,185,197,1); background-color: rgba(45,45,45,1); }
+.new-moon .number { color: rgba(252,163,105,1); }
+.new-moon .quad-name { color: rgba(242,119,122,1); }
+.new-moon .quad-name local { color: rgba(179,185,197,1); }
+.new-moon .search-match { background-color: rgba(225,166,242,0.25); }
+.new-moon .selection { background-color: rgba(106,176,243,0.5); }
+.new-moon .semicolon { color: rgba(106,176,243,1); }
+.new-moon .string { color: rgba(146,209,146,1); }
+.new-moon .system-command { color: rgba(255,238,166,1); }
+.new-moon .tracer { background-color: rgba(119,124,133,0.25); }
+.new-moon .pendent { background-color: rgba(119,124,133,0.25); }
+.new-moon .user-command { color: rgba(255,238,166,1); font-weight: bold; }
+.new-moon .value-tip target { background-color: rgba(119,124,133,1); }
+.new-moon .zilde { color: rgba(252,163,105,1); }
+.new-moon .chararr { color: rgba(242,119,122,1); background-color: rgba(119,124,133,0.25); }
+.new-moon .charmat { color: rgba(146,209,146,1); background-color: rgba(45,45,45,1); }
+.new-moon .charvec { color: rgba(255,238,166,1); background-color: rgba(45,45,45,1); }
+.new-moon .charvecvec { color: rgba(118,212,214,1); background-color: rgba(45,45,45,1); }
+.new-moon .mixarr { color: rgba(118,212,214,1); background-color: rgba(119,124,133,0.25); }
+.new-moon .numarr { color: rgba(189,147,249,1); background-color: rgba(68,71,90,1); }
+.new-moon .quador { color: rgba(255,255,255,1); background-color: rgba(242,119,122,1); }
+.new-moon .disconnected { background-color: rgba(119,124,133,1); }

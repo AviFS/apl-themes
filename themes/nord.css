@@ -1,45 +1,44 @@
-.nord#output { background-color: }
-.nord.normal { color: #eceff4; }
+.nord#output { color: rgba(236,239,244,1); background-color: rgba(46,52,64,1); }
 
-.nord .assignment { color: #88c0d0; }
-.nord .bracket { color: #81a1c1; }
-.nord .comment { color: #616e88; }
-.nord .cursor { color: #d8dee9; }
-.nord .curly-braces { color: #5e81ac; }
-.nord .diamond { color: #81a1c1; font-weight: bold; }
-.nord .dyadic-operator { color: #8fbcbb; }
-.nord .error { color: #bf616a; text-decoration: underline; }
-.nord .function { color: #81a1c1; }
-.nord .global-name { color: #ebcb8b; }
-.nord .idiom { color: #d08770; }
-.nord .keyword { color: #81a1c1; }
-.nord .label { color: #81a1c1; font-weight: bold; }
-.nord .line-number { color: #4c566a; }
-.nord .matching-bracket { }
-.nord .modified-line { }
-.nord .monadic-operator { color: #88c0d0; }
-.nord .name { color: #d8dee9; }
-.nord .normal { color: #eceff4; }
-.nord .number { color: #b48ead; }
-.nord .parenthesis { color: #eceff4; }
-.nord .quad-name { color: #ebcb8b; }
-.nord .quad-name local { color: #d8dee9; }
-.nord .search-match { }
-.nord .selection { }
-.nord .semicolon { color: #81a1c1; }
-.nord .string { color: #a3be8c; }
-.nord .system-command { color: #81a1c1; }
-.nord .tracer { color: #eceff4; }
-.nord .pendent { color: #eceff4; }
-.nord .user-command { color: #81a1c1; }
-.nord .value-tip target { }
-.nord .value-tip { color: #eceff4; }
-.nord .zilde { color: #b48ead; }
-.nord .chararr { color: #bf616a; }
-.nord .charmat { color: #a3be8c; }
-.nord .charvec { color: #ebcb8b; }
-.nord .charvecvec { color: #88c0d0; }
-.nord .mixarr { color: #88c0d0; }
-.nord .numarr { color: #b48ead; }
-.nord .quador { color: #eceff4; }
-.nord .disconnected { }
+.nord .assignment { color: rgba(136,192,208,1); }
+.nord .bracket { color: rgba(129,161,193,1); }
+.nord .comment { color: rgba(97,110,136,1); }
+.nord .cursor { color: rgba(216,222,233,1); }
+.nord .curly-braces { color: rgba(94,129,172,1); }
+.nord .diamond { color: rgba(129,161,193,1); font-weight: bold; }
+.nord .dyadic-operator { color: rgba(143,188,187,1); }
+.nord .error { color: rgba(191,97,106,1); text-decoration: underline; }
+.nord .function { color: rgba(129,161,193,1); }
+.nord .global-name { color: rgba(235,203,139,1); }
+.nord .idiom { color: rgba(208,135,112,1); }
+.nord .keyword { color: rgba(129,161,193,1); }
+.nord .label { color: rgba(129,161,193,1); font-weight: bold; }
+.nord .line-number { color: rgba(76,86,106,1); }
+.nord .matching-bracket { background-color: rgba(67,76,94,0.5); }
+.nord .modified-line { background-color: rgba(67,76,94,0.25); }
+.nord .monadic-operator { color: rgba(136,192,208,1); }
+.nord .name { color: rgba(216,222,233,1); }
+.nord .normal { color: rgba(236,239,244,1); background-color: rgba(46,52,64,1); }
+.nord .number { color: rgba(180,142,173,1); }
+.nord .parenthesis { color: rgba(236,239,244,1); }
+.nord .quad-name { color: rgba(235,203,139,1); }
+.nord .quad-name local { color: rgba(216,222,233,1); }
+.nord .search-match { background-color: rgba(67,76,94,0.5); }
+.nord .selection { background-color: rgba(67,76,94,0.5); }
+.nord .semicolon { color: rgba(129,161,193,1); }
+.nord .string { color: rgba(163,190,140,1); }
+.nord .system-command { color: rgba(129,161,193,1); }
+.nord .tracer { color: rgba(236,239,244,1); background-color: rgba(67,76,94,1); }
+.nord .pendent { color: rgba(236,239,244,1); background-color: rgba(67,76,94,1); }
+.nord .user-command { color: rgba(129,161,193,1); }
+.nord .value-tip target { background-color: rgba(67,76,94,0.5); }
+.nord .value-tip { color: rgba(236,239,244,1); background-color: rgba(59,66,82,1); }
+.nord .zilde { color: rgba(180,142,173,1); }
+.nord .chararr { color: rgba(191,97,106,1); background-color: rgba(67,76,94,1); }
+.nord .charmat { color: rgba(163,190,140,1); background-color: rgba(46,52,64,1); }
+.nord .charvec { color: rgba(235,203,139,1); background-color: rgba(46,52,64,0.5); }
+.nord .charvecvec { color: rgba(136,192,208,1); background-color: rgba(46,52,64,1); }
+.nord .mixarr { color: rgba(136,192,208,1); background-color: rgba(67,76,94,1); }
+.nord .numarr { color: rgba(180,142,173,1); background-color: rgba(67,76,94,1); }
+.nord .quador { color: rgba(236,239,244,1); background-color: rgba(191,97,106,1); }
+.nord .disconnected { background-color: rgba(67,76,94,1); }

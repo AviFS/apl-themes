@@ -1,0 +1,21 @@
+.albrecht-durer#output { background-color: rgba(255,255,255,1); }
+
+.albrecht-durer .comment { font-style: italic; }
+.albrecht-durer .diamond { font-weight: bold; }
+.albrecht-durer .error { color: rgba(0,0,0,1); background-color: rgba(17,17,17,0.5); font-weight: bold; font-style: italic; }
+.albrecht-durer .global-name { font-style: italic; }
+.albrecht-durer .keyword { font-weight: bold; }
+.albrecht-durer .line-number { background-color: rgba(255,255,255,0); }
+.albrecht-durer .matching-bracket { background-color: rgba(204,204,204,0.5); }
+.albrecht-durer .modified-line { background-color: rgba(119,119,119,0.25); }
+.albrecht-durer .namespace { color: rgba(136,136,136,1); }
+.albrecht-durer .normal { background-color: rgba(255,255,255,1); }
+.albrecht-durer .number { color: rgba(136,136,136,1); }
+.albrecht-durer .quad-name { color: rgba(136,136,136,1); }
+.albrecht-durer .search-match { background-color: rgba(204,204,204,0.5); }
+.albrecht-durer .string { color: rgba(136,136,136,1); }
+.albrecht-durer .tracer { background-color: rgba(238,238,238,1); }
+.albrecht-durer .pendent { background-color: rgba(218,218,218,1); }
+.albrecht-durer .value-tip target { }
+.albrecht-durer .zilde { color: rgba(136,136,136,1); }
+.albrecht-durer .disconnected { background-color: rgba(226,211,187,1); }

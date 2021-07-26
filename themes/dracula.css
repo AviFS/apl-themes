@@ -1,0 +1,44 @@
+.dracula#output { color: rgba(248,248,242,1); background-color: rgba(40,42,54,1); }
+
+.dracula .assignment { color: rgba(80,250,123,1); }
+.dracula .autocomplete-sel { background-color: rgba(189,147,249,0.25); }
+.dracula .bracket { color: rgba(80,250,123,1); }
+.dracula .comment { color: rgba(98,114,164,1); }
+.dracula .cursor { color: rgba(248,248,242,1); }
+.dracula .curly-braces { color: rgba(248,248,242,1); }
+.dracula .dfn { color: rgba(248,248,242,1); }
+.dracula .diamond { color: rgba(255,121,198,1); }
+.dracula .dyadic-operator { color: rgba(241,250,140,1); }
+.dracula .error { color: rgba(255,85,85,1); text-decoration: underline; }
+.dracula .function { color: rgba(139,233,253,1); }
+.dracula .global-name { color: rgba(255,184,108,1); }
+.dracula .idiom { text-decoration: underline; }
+.dracula .keyword { color: rgba(255,121,198,1); }
+.dracula .label { color: rgba(255,121,198,1); font-weight: bold; }
+.dracula .line-number { color: rgba(98,114,164,1); }
+.dracula .matching-bracket { color: rgba(248,248,242,1); background-color: rgba(68,71,90,0.5); }
+.dracula .modified-line { background-color: rgba(68,71,90,0.5); }
+.dracula .monadic-operator { color: rgba(80,250,123,1); }
+.dracula .normal { color: rgba(248,248,242,1); background-color: rgba(40,42,54,1); }
+.dracula .number { color: rgba(189,147,249,1); }
+.dracula .parenthesis { color: rgba(248,248,242,1); }
+.dracula .quad-name { color: rgba(255,184,108,1); }
+.dracula .quad-name local { color: rgba(248,248,242,1); }
+.dracula .search-match { background-color: rgba(189,147,249,0.5); }
+.dracula .selection { background-color: rgba(107,178,255,0.5); }
+.dracula .semicolon { color: rgba(80,250,123,1); }
+.dracula .string { color: rgba(241,250,140,1); }
+.dracula .system-command { color: rgba(255,121,198,1); }
+.dracula .tracer { background-color: rgba(68,71,90,1); }
+.dracula .pendent { background-color: rgba(68,71,90,1); }
+.dracula .user-command { color: rgba(255,121,198,1); font-weight: bold; }
+.dracula .value-tip target { background-color: rgba(68,71,90,1); }
+.dracula .zilde { color: rgba(189,147,249,1); }
+.dracula .chararr { color: rgba(255,85,85,1); background-color: rgba(68,71,90,1); }
+.dracula .charmat { color: rgba(80,250,123,1); background-color: rgba(40,42,54,1); }
+.dracula .charvec { color: rgba(241,250,140,1); background-color: rgba(68,71,90,1); }
+.dracula .charvecvec { color: rgba(139,233,253,1); background-color: rgba(40,42,54,1); }
+.dracula .mixarr { color: rgba(139,233,253,1); background-color: rgba(68,71,90,1); }
+.dracula .numarr { color: rgba(189,147,249,1); background-color: rgba(68,71,90,1); }
+.dracula .quador { color: rgba(248,248,242,1); background-color: rgba(255,85,85,1); }
+.dracula .disconnected { background-color: rgba(98,114,164,1); }
