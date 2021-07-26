@@ -19,6 +19,7 @@ name
 
 .global-name { color: #000000;}
 .curly-braces { color: #000000; }
+.label { color: #000000; }
 
 .name { color: #888888; }
 .number { color: #888888; }
@@ -34,12 +35,25 @@ name
 .dfn-level4 { color: #1C00FF; }
 .dfn-level5 { color: #1C00FF; }
 .bracket { color: #1C00FF; }
+.diamond { color: #1C00FF; }
 
 .comment { color: #008888; } 
 .string { color: #008888; }
 
 .zilde { color: #0A0088; }
 .function { color: #0A0088; }
+.line-number { color: #0A0088; }
+
+.keyword { color: #880000; }
+.idiom { color: #0A0088; }
+.error { color: #FF0000; }
+
+
+/* label: #00000           
+keyword: 880000
+idiom: 0A0088              
+error: FF0000      */
+
 /*
 
 comment: '#008888'     

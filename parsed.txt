@@ -78,9 +78,54 @@
 "\n": normal
 
 // label:       
+"label:": label
+"\n": normal
+
 // :For i :In ⍳X ⋄ :EndFor
+":For": keyword
+" ": normal
+"i": global-name
+" ": normal
+":In": keyword
+" ": normal
+"⍳": function
+"X": name
+" ": normal
+"⋄": diamond
+" ": normal
+":EndFor": keyword
+"\n": normal
+
 // :If condition
+":If": keyword
+" ": normal
+"condition": global-name
+"\n": normal
+
 //   {⍵[⍋⍵]} ⋄ global←local←0
+"\t": normal
+"{⍵[⍋⍵]}": idiom
+" ": normal
+"⋄": diamond
+" ": normal
+"global": global-name
+"←": assignment
+"local": name
+"←": assignment
+"0": number
+"\n": normal
+
 //   ⎕error ) ] } :error 'unclosed
+"\t": normal
+"⎕error ) ] } :error 'unclosed": error
+"\n": normal
+
 // :EndIf
-// search match      
+":EndIf": keyword
+"\n": normal
+
+// search match
+"search": global-name
+" ": normal
+"match": global-name
+"\n": normal
