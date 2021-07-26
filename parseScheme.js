@@ -116,7 +116,11 @@ function renderCSS(schema) {
         if (!props) { continue; }
         else { css += `.${theme} .${name.replace(' ', '-')} { `; }
 
-        if (props.fg)  { css += `color: ${RGB(props.fg)}; `} // I think I should be using RGBA() too
+        // These aren't the same as the original function, but I think they should work
+        // The original does both RGB & RGBA. And it sets default `bgo` to 0.5 for `props.bg`
+        if (props.fg)  { css += `color: ${RGBA(props.fg, props.fgo==null? 1: props.fgo)}; `} 
+        if (props.bg) { css += `background-color: ${RGBA(props.bg, props.bgo==null? 1: props.bgo)}; `}
+
         if (props.B) { css += "font-weight: bold; "; }
         if (props.I) { css += "font-style: italic; "; }
         if (props.U) { css += "text-decoration: underline; "; }
