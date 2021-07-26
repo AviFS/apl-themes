@@ -3,15 +3,17 @@
 <head>
 <script src="interp.js"></script>
 <script src="main.js"></script>
+<script src="parseScheme.js"></script>
 <link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="default-theme.css">
+<!-- <link rel="stylesheet" href="default-theme.css"> -->
+<link rel="stylesheet" href="dzaima.css">
 <!-- <link rel="preload" href="fonts/APL386.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="fonts/APL386.ttf" as="font" type="font/ttf" crossorigin> -->
 </head>
 <body onload="init();">
 <!-- <textarea id="input" rows=15 cols=50></textarea> -->
 <!-- <button type="button" onclick="run();">Run</button> -->
-<div id="output">
+<div id="output" class="normal">
     <span class="line-number">&nbsp;[0]</span
         ><span class="normal">&nbsp;</span
         ><span class="curly-braces">{</span
@@ -53,9 +55,9 @@
         ><span class="normal">&nbsp;</span
         ><span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;</span
         ><span class="function">+</span
-        ><span class="monadic operator">/</span
+        ><span class="monadic-operator">/</span
         ><span class="function">-</span
-        ><span class="dyadic operator">⍣</span
+        ><span class="dyadic-operator">⍣</span
         ><span class="parenthesis">(</span
         ><span class="function">×</span
         ><span class="name">A</span

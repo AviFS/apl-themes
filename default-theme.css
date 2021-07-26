@@ -1,21 +1,18 @@
 /*
-curly braces
-name
-curly braces
-assignment
-curly braces
-name
-curly braces
-global name
-parenthesis
-name
-normal
-name
-parenthesis
-semicolon
-name
+    {
+      name: 'Default',
+      theme: 'light',
+      styles: 'asgn=fg:00f com=fg:088 dfn=fg:00f diam=fg:00f err=fg:f00 fn=fg:008 idm=fg:008 kw=fg:800 '
+      + 'lnum=fg:008,bg:f,bgo:0 mod=bg:7,bgo:.25 mtch=bg:ff8,bgo:.5 norm=bg:f,bgo:1 ns=fg:8 num=fg:8 op1=fg:00f op2=fg:00f '
+      + 'par=fg:00f quad=fg:808 qdl=fg:c0c sel=bg:48e,bgo:.5 semi=fg:00f sqbr=fg:00f srch=bg:f80,bgo:.5 str=fg:088 tc=bg:d,bgo:1 '
+      + 'tcpe=bg:c8c8c8,bgo:1 trad=fg:8 var=fg:8 zld=fg:008 scmd=fg:00f ucmd=fg:00f vtt=bg:ff0 '
+      + 'ca=bg:828282,bgo:1,fg:0f0 cm=bg:0,bgo:.1,fg:080 cv=bg:f,bgo:1,fg:0 cvv=bg:0,bgo:1,fg:0ff '
+      + 'ma=bg:828282,bgo:1,fg:0ff na=bg:828282,bgo:1,fg:f qor=bg:f00,bgo:1,fg:f dc=bg:e2d3bb,bgo:1',
+    }
 */
 
+
+#output { background-color: #FFFFFF; }
 
 .global-name { color: #000000;}
 .curly-braces { color: #000000; }
@@ -43,9 +40,9 @@ name
 .zilde { color: #0A0088; }
 .function { color: #0A0088; }
 .line-number { color: #0A0088; }
+.idiom { color: #0A0088; }
 
 .keyword { color: #880000; }
-.idiom { color: #0A0088; }
 .error { color: #FF0000; }
 
 

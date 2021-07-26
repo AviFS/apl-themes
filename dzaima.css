@@ -1,0 +1,35 @@
+#output { background-color: #14141B; }
+
+.assignment { color: #ffff00; }
+.bracket { color: #888888; }
+.comment { color: #898989; }
+.cursor { }
+.dfn-level2 { color: #eebb44; }
+.dfn-level3 { color: #cc7799; }
+.dfn-level4 { color: #ccdd00; }
+.dfn-level5 { color: #b63cda; }
+.dfn { color: #aa77bb; }
+.diamond { color: #ffff00; }
+.dyadic-operator { color: #ffdd66; }
+.error { color: #ff0000; font-weight: bold; text-decoration: underline; }
+.function { color: #00ff00; }
+.global-name { }
+.idiom { color: #808080; font-weight: bold; text-decoration: underline; }
+.keyword { color: #aaaa22; }
+.label { text-decoration: underline; }
+.line-number { color: #bb9944; }
+.matching-bracket { font-weight: bold; }
+.modified-line { }
+.monadic-operator { color: #dd9955; }
+.normal { color: #d0d0d0; }
+.number { color: #aa88bb; }
+.search-match { }
+.selection { }
+.semicolon { color: #888888; }
+.string { color: #ddaaee; }
+.system-command { color: #00ffff; }
+.tracer { }
+.user-command { color: #ff8800; font-weight: bold; }
+.value-tip target { }
+.value-tip { }
+.zilde { color: #dd99ff; font-weight: bold; }
