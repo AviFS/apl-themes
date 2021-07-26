@@ -5,7 +5,7 @@
 <script src="main.js"></script>
 <script src="parseScheme.js"></script>
 <link rel="stylesheet" href="main.css">
-<!-- <link rel="stylesheet" href="default-theme.css"> -->
+<link rel="stylesheet" href="default-theme.css">
 <link rel="stylesheet" href="dzaima.css">
 <!-- <link rel="preload" href="fonts/APL386.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="fonts/APL386.ttf" as="font" type="font/ttf" crossorigin> -->
@@ -13,7 +13,12 @@
 <body onload="init();">
 <!-- <textarea id="input" rows=15 cols=50></textarea> -->
 <!-- <button type="button" onclick="run();">Run</button> -->
-<div id="output" class="normal">
+<div id="input">
+    <input id="lang-select" type="text">
+    <button id="run" type="button" onclick="changeStyle();">Try</button>
+    <div style="color:rgb(160, 160, 160); float: right;">themes = [dzaima, default]</div>
+</div>
+<div id="output" class="dzaima normal">
     <span class="line-number">&nbsp;[0]</span
         ><span class="normal">&nbsp;</span
         ><span class="curly-braces">{</span
