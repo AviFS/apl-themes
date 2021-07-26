@@ -3,3 +3,9 @@
 I skipped the func because I couldn't figure it out, but I should go back and figure it out.
 
 For instance, compare the curly brace on line [1] of web & ride in `dfn←{`. Note that it should actually be a different color from the curly brace on line [0]. There's a system of inheritance where line [0] brace gets 'normal' color, but the one on line [1] should be getting 'dfn-level1' color.
+
+- Add minimap side bar on left with previews you can click on
+
+- Optional: Add scroll feature where multiple theme previews are shown per page
+
+I'll probably leave this for you to implement, if it's a feature you'd like!
