@@ -27,7 +27,18 @@
     border-radius: 6px;
     padding: 4px 8px 4px 8px;
     font-family: "DejaVu Sans Mono", monospace;
-    color: #C0C0C0
+    color: #C0C0C0;
+}
+
+#theme-list>a {
+    /* color: #C0C0C0; */
+    color: rgb(115, 145, 175);
+    /* color: #95afc0; */
+    text-decoration: none;
+
+}
+#theme-list>a:hover{
+    color: #6ab3e7;
 }
 
 #run:hover {

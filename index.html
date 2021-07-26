@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <head>
-<script src="interp.js"></script>
-<script src="main.js"></script>
-<script src="parseScheme.js"></script>
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="themes/albrecht-durer.css">
-<link rel="stylesheet" href="themes/default.css">
-<link rel="stylesheet" href="themes/dracula.css">
-<link rel="stylesheet" href="themes/dzaima.css">
-<link rel="stylesheet" href="themes/francisco-goya.css">
-<link rel="stylesheet" href="themes/kazimir-malevich.css">
-<link rel="stylesheet" href="themes/new-moon.css">
-<link rel="stylesheet" href="themes/nord.css">
-<!-- <link rel="preload" href="fonts/APL386.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="fonts/APL386.ttf" as="font" type="font/ttf" crossorigin> -->
+
+    <script src="main.js"></script>
+    <script src=".parsing/parseScheme.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="themes/albrecht-durer.css">
+    <link rel="stylesheet" href="themes/default.css">
+    <link rel="stylesheet" href="themes/dracula.css">
+    <link rel="stylesheet" href="themes/dzaima.css">
+    <link rel="stylesheet" href="themes/francisco-goya.css">
+    <link rel="stylesheet" href="themes/kazimir-malevich.css">
+    <link rel="stylesheet" href="themes/new-moon.css">
+    <link rel="stylesheet" href="themes/nord.css">
+    <!-- <link rel="preload" href="fonts/APL386.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/APL386.ttf" as="font" type="font/ttf" crossorigin> -->
 </head>
 <body onload="init();">
 <!-- <textarea id="input" rows=15 cols=50></textarea> -->
 <!-- <button type="button" onclick="run();">Run</button> -->
 <div id="input">
     <input id="lang-select" type="text">
-    <button id="run" type="button" onclick="changeStyle();">Try</button>
+    <button id="run" type="button" onclick="changeStyle('');">Try</button>
     <br><br>
-    <div style="color:rgb(160, 160, 160); float: right;">themes = [albrecht-durer, default, dracula, dzaima, francisco-goya, kazimir-malevich, new-moon, nord]</div>
+    <div id="theme-list" style="color:rgb(160, 160, 160); float: right;">
+        themes = [<a onclick="changeStyle('albrecht-durer');" href="#albrecht-durer">albrecht-durer</a>,
+        <a onclick="changeStyle('default');" href="#default">default</a>,
+        <a onclick="changeStyle('dracula');" href="#dracula">dracula</a>,
+        <a onclick="changeStyle('dzaima');" href="#dzaima">dzaima</a>,
+        <a onclick="changeStyle('francisco-goya');" href="#francisco-goya">francisco-goya</a>,
+        <a onclick="changeStyle('kazimir-malevich');" href="#kazimir-malevich">kazimir-malevich</a>,
+        <a onclick="changeStyle('new-moon');" href="#new-moon">new-moon</a>,
+        <a onclick="changeStyle('nord');" href="#nord">nord</a>]
+        </div>
     <br>
 </div>
 <div id="output" class="dzaima normal">
