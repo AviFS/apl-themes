@@ -1,0 +1,45 @@
+.francisco-goya#output { background-color: #000000; }
+.francisco-goya.normal { color: #99cc77; }
+
+.francisco-goya .assignment { color: #ffff00; }
+.francisco-goya .bracket { color: #888888; }
+.francisco-goya .comment { color: #bbbbbb; font-style: italic; }
+.francisco-goya .cursor { }
+.francisco-goya .dfn-level2 { color: #eebb44; }
+.francisco-goya .dfn-level3 { color: #cc7799; }
+.francisco-goya .dfn-level4 { color: #ccdd00; }
+.francisco-goya .dfn-level5 { color: #aa00dd; }
+.francisco-goya .dfn { color: #aa77bb; }
+.francisco-goya .diamond { color: #ffff00; }
+.francisco-goya .dyadic-operator { color: #ffdd66; }
+.francisco-goya .error { color: #ff0000; font-weight: bold; }
+.francisco-goya .function { color: #00ff00; }
+.francisco-goya .global-name { font-weight: bold; }
+.francisco-goya .idiom { color: #00ff00; }
+.francisco-goya .keyword { color: #aaaa22; }
+.francisco-goya .label { text-decoration: underline; }
+.francisco-goya .line-number { color: #bb9944; }
+.francisco-goya .matching-bracket { color: #000000; }
+.francisco-goya .modified-line { }
+.francisco-goya .monadic-operator { color: #dd9955; }
+.francisco-goya .normal { color: #99cc77; }
+.francisco-goya .number { color: #aa88bb; }
+.francisco-goya .search-match { color: #000000; }
+.francisco-goya .selection { }
+.francisco-goya .semicolon { color: #888888; }
+.francisco-goya .string { color: #ddaaee; }
+.francisco-goya .system-command { color: #00ffff; }
+.francisco-goya .tracer { }
+.francisco-goya .pendent { }
+.francisco-goya .user-command { color: #ff8800; font-weight: bold; }
+.francisco-goya .value-tip target { }
+.francisco-goya .value-tip { color: #ffff00; }
+.francisco-goya .zilde { color: #dd99ff; font-weight: bold; }
+.francisco-goya .chararr { color: #00ff00; }
+.francisco-goya .charmat { color: #00ff00; }
+.francisco-goya .charvec { color: #000000; }
+.francisco-goya .charvecvec { color: #00ffff; }
+.francisco-goya .mixarr { color: #00ffff; }
+.francisco-goya .numarr { color: #ffffff; }
+.francisco-goya .quador { color: #ffffff; }
+.francisco-goya .disconnected { }

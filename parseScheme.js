@@ -107,13 +107,14 @@ function decScm(x) { // x:for example "num=fg:345,bg:f,B,U,bgo:.5 str=fg:2,I com
 
 function renderCSS(schema) {
     var css = "";
+    var theme = String(schema.name).toLowerCase().replace(' ', '-');
     for (const g of G) {
-        console.log(g);
         var name = g.s;
+        console.log(name);
         var key = g.t;
         var props = schema[key];
         if (!props) { continue; }
-        else { css += `.${name.replace(' ', '-')} { `; }
+        else { css += `.${theme} .${name.replace(' ', '-')} { `; }
 
         if (props.fg)  { css += `color: ${RGB(props.fg)}; `} // I think I should be using RGBA() too
         if (props.B) { css += "font-weight: bold; "; }
