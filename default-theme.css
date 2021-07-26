@@ -18,18 +18,28 @@ name
 
 
 .global-name { color: #000000;}
+.curly-braces { color: #000000; }
 
 .name { color: #888888; }
-.curly-braces { color: #000000; }
+.number { color: #888888; }
+
 .parenthesis { color: #1C00FF; }
 .assignment { color: #1C00FF; }
 .semicolon { color: #1C00FF; } 
+.monadic-operator { color: #1C00FF; }
+.dyadic-operator { color: #1C00FF; }
+.dfn-level1 { color: #1C00FF; }
+.dfn-level2 { color: #1C00FF; }
+.dfn-level3 { color: #1C00FF; }
+.dfn-level4 { color: #1C00FF; }
+.dfn-level5 { color: #1C00FF; }
+.bracket { color: #1C00FF; }
 
 .comment { color: #008888; } 
 .string { color: #008888; }
-.number { color: #888888; }
-.zilde { color: #0A0088; }
 
+.zilde { color: #0A0088; }
+.function { color: #0A0088; }
 /*
 
 comment: '#008888'     

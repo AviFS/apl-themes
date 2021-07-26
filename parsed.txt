@@ -6,7 +6,7 @@
 "{": curly-braces
 "X": name
 "}": curly-braces
-"tradfn": 
+"tradfn": global-name
 "(": parenthesis
 "Y": name
 " ": normal
@@ -20,23 +20,63 @@
 "dfn": global-name 
 "←": assignment
 "{": curly-braces
- " ": normal
- "<br>": normal
+" ": normal
+"⍝ comment": comment
+"<br>": normal
  
  
- // 0 ¯1.2e¯3j¯.45 'string' ⍬
- "⍝ comment": comment
- "\t": normal
- "0": number
- " ": normal
+// 0 ¯1.2e¯3j¯.45 'string' ⍬
+"\t": normal
+"0": number
+" ": normal
 "¯1.2e¯3j¯.45": number
 " ": normal
 "'string'": string
 " ": normal
 "⍬": zilde
+"\n": normal
+
 //   +/-⍣(×A):⍺∇⍵[i;j]
+"\t": normal
+"+": function
+"/": monadic operator
+"-": function
+"⍣": dyadic operator
+"(": parenthesis
+"×": function
+"A": name
+")": parenthesis
+":⍺∇⍵": dfn-level1
+"[": bracket
+"i": name
+";": semicolon
+"j": name
+"]": bracket
+"\n": normal
+
+
 //   {{{{nested ⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}⍺:∇⍵}
+"\t": normal
+"{": dfn-level2
+"{": dfn-level3
+"{": dfn-level4
+"{": dfn-level5
+"nested": name
+" ": normal
+"⍺:∇⍵": dfn-level5
+"}": dfn-level5
+"⍺:∇⍵": dfn-level4
+"}": dfn-level4
+"⍺:∇⍵": dfn-level3
+"}": dfn-level3
+"⍺:∇⍵": dfn-level2
+"}": dfn-level2
+"\n": normal
+
 // }
+"}": dfn-level1
+"\n": normal
+
 // label:       
 // :For i :In ⍳X ⋄ :EndFor
 // :If condition
